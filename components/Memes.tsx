@@ -1,15 +1,15 @@
 import React, {useContext} from "react"
 import { useMemesQuery } from "../generated/graphql"
-import ListMemes from "./ListMemes"
+import {ListMemes} from "./ListMemes"
 interface MemesProps {}
 import {SavedMemesContext} from '../pages/MemesProvider'
 
 
 export const Memes: React.FC<MemesProps> = ({}) => {
   const search = useContext(SavedMemesContext)
+  const { data, loading: memesLoading } = useMemesQuery();
   const runmemes = ()=>{
     if(search.runsearch){
-      const { data, loading: memesLoading } = useMemesQuery();
       return memesLoading? 
         (
           <div>

@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react"
 import {SavedMemesContext} from '../pages/MemesProvider'
 
 
-export default function MemeCard(props) {
+export function MemeCard(props) {
     const [isSaved, setIsSaved] = useState(false);
     const [isShown, setIsShown] = useState(false)
     const saved = useContext(SavedMemesContext)

@@ -1,9 +1,9 @@
 import React, { useState, useContext } from "react"
 // interface dataMemes {memeArray: any}
-import MemeCard from './MemeCard'
+import {MemeCard} from './MemeCard'
 import {SavedMemesContext} from '../pages/MemesProvider'
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
-const ListMemes = (props) => {
+export const ListMemes = (props) => {
   const saved = useContext(SavedMemesContext)
 
   const renderedItems = props.memeArray.map((item,index) => {
@@ -32,7 +32,7 @@ const ListMemes = (props) => {
 
 };
 
-export default ListMemes;
+// export ListMemes;
 
 
 // BUAT AGAR LISTMEMES MENYELEKSI

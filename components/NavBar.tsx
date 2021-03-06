@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-export default function NavBar(props) {
+export function NavBar(props) {
     return(
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container">
