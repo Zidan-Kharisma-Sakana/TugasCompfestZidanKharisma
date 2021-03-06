@@ -2,9 +2,9 @@ import Head from "next/head"
 import React from 'react'
 import {MemesConsumer, SavedMemesContext} from './MemesProvider'
 import Link from 'next/link'
-import NavBar from '../components/NavBar'
-import ListMemes from '../components/ListMemes'
-import Footer from '../components/Footer'
+import {NavBar} from '../components/NavBar'
+import {ListMemes} from '../components/ListMemes'
+import {Footer} from '../components/Footer'
 
 export default function Saved(prop) {
 return (

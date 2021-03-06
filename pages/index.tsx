@@ -2,8 +2,8 @@ import Head from "next/head"
 import { Memes } from "../components/Memes"
 import {SearchBar} from "../components/SearchBar"
 import React from 'react'
-import NavBar from '../components/NavBar'
-import Footer from '../components/Footer'
+import {NavBar} from '../components/NavBar'
+import {Footer} from '../components/Footer'
 export default function Home(prop) {
   return (
     <React.Fragment>
