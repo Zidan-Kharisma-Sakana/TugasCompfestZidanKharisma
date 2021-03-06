@@ -18,3 +18,16 @@ npm run dev
 # or
 yarn dev
 ```
+
+### Figma Link
+
+https://www.figma.com/file/ktcQtnVkoxhcQehRgM8b6i/Tugas-Oprec?node-id=1%3A568
+
+### Boilerplate UI
+
+![mEmEs](./static/index.png)
+
+want to ask? contact us through line id: <br>
+jojonicholas
+or
+marockat
