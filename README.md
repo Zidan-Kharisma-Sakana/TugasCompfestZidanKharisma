@@ -1,4 +1,5 @@
 ## Compfest Software Engineering Task
+Deployed on: https://tugas-compfest-zidan-kharisma.vercel.app/
 
 ### Getting Started
 
