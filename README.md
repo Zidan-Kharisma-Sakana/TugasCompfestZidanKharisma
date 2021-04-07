@@ -2,7 +2,7 @@
 Deployed on: https://tugas-compfest-zidan-kharisma.vercel.app/
 
 ### Getting Started
-
+cat dog
 This boilerplate includes:
 
 - `/graphql/` - this folder is to define your Queries/Mutations (pro tip: copy the Query/Mutation from your `GraphiQL` to avoid errors)
